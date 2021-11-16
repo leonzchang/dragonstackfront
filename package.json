@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve --open",
+    "start": "node app.js ",
     "clean": "rm -rf dist",
     "dev": "webpack server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
